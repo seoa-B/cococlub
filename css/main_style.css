@@ -23,6 +23,7 @@ body{
 #wrap{
     min-width: 1320px;
     /* veiwport 너비랑 똑같이 설정해줘야 함 */
+    overflow: hidden;
 }
 
 /*  */
