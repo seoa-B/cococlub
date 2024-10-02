@@ -49,6 +49,10 @@ body{
     height: 95px;
     /* position: relative; */
 }
+h1{
+    height: 95px;
+    align-items: center;
+}
 .gnb{
     display: flex;
 }
