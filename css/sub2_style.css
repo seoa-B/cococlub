@@ -1,0 +1,339 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, img, small, strong, b, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tr, th, td, article, aside, footer, header, nav, section, summary, video{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    font-size: 18px;
+    /* rem의 기준크기-설정값 조정(본인 웹사이트 디자인에 따라서) */
+}
+body{
+    font-family: 'SUIT';
+    font-size: 18px;
+    /* line-height: 1.2rem; */
+    color: #292929;
+    /* font-family, font-size 설정값 조정 */
+}
+#wrap{
+    min-width: 1320px;
+    /* veiwport 너비랑 똑같이 설정해줘야 함 */
+}
+
+/*  */
+.top_btn{
+    position: fixed;
+    right: 80px;
+    bottom: 25px;
+    z-index: 9;
+    cursor: pointer;
+}
+/*  */
+
+/* header */
+#header{
+    height: 95px;
+    background-color: #fff;
+}
+#header .inner_header{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    /* position: relative; */
+}
+.gnb{
+    display: flex;
+}
+.gnb li a{
+    display: block;
+    margin: 30px 45px 0 45px;
+    padding-bottom: 38px;
+    font-size: 22px;
+    font-weight: 900;
+    color: #292929;
+    /* background-color: #ce6565; */
+}
+.gnb li a:hover{
+    color: #2f499b;
+}
+
+.header_link{
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+.header_link li a{
+    margin-right: 18px;
+    font-weight: 500;
+}
+
+/* searchbar */
+#content{
+    width: 180px;
+    position: absolute;
+    right: 55px;
+    top: center;
+    z-index: 9;
+    display: none;
+}
+#content input{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #292929;
+    background-color: #fff;
+    border-bottom: 2px solid #333;
+    padding-bottom: 2px;
+}
+#content input::placeholder{
+    color: #444444;
+}
+
+/* banner */
+#banner{
+    background: url(../images/sub2_about/bannerbg.png) no-repeat center;
+    height: 600px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* aboutUs */
+#aboutUs{
+    width: 1320px;
+    margin: 150px auto;
+}
+#aboutUs .subTitle{
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    padding: 110px 0 20px 0;
+}
+#aboutUs .textBox{
+    text-align: center;
+}
+#aboutUs ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 150px 0;
+}
+#aboutUs ul li{
+    width: 330px;
+    height: 4px;
+    background-color: #004FD6;
+    margin-bottom: 150px;
+}
+#aboutUs .measure{
+    display: inline-block;
+    font-size: 44px;
+    font-weight: 400;
+}
+#aboutUs .text{
+    margin-bottom: 150px;
+}
+/* count */
+#aboutUs span {
+    font-size: 60px;
+    font-weight: 800;
+    color: #004FD6;
+    text-align: center;
+    display: inline-block;
+    padding: 60px 0 60px 30px; 
+}
+#aboutUs ul li:nth-child(2) span{
+    padding-left: 60px;
+}
+
+/* brandValue */
+#brandValue{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 150px 0 195px 0;
+}
+#brandValue h2{
+    padding-bottom: 145px; 
+}
+#brandValue ul{
+    display: flex;
+    justify-content: space-between;
+}
+#brandValue .circle{
+    width: 380px;
+    height: 380px;
+    border: 1px solid #2669DC;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#brandValue .circle p{
+    font-size: 40px;
+    color: #2669DC;
+}
+#brandValue .circle2{
+    background-color: #2669DC;
+}
+#brandValue .circle2 p{
+    color: #fff;
+}
+#brandValue .circle2 span{
+    color: #fff;
+}
+
+#brandValue span{
+    font-size: 26px;
+    font-weight: 700;
+    padding-top: 10px;
+    color: #2669DC;
+}
+#brandValue .circleText{
+    text-align: center;
+    padding-top: 145px;
+    
+}
+.box4 p{
+    text-align: center;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 0px 0px 40px rgba(0,0,0,0.1);
+}
+
+/* company */
+#company{
+    height: 400px;
+    background-color: #E7EFFC;
+    /* margin: 195px 0; */
+}
+
+/* brandIdentity */
+#brandIdentity{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 180px 0 115px 0;
+}
+#brandIdentity .textCenter{
+    text-align: center;
+    padding: 35px 0;
+    font-size: 22px;
+}
+#brandIdentity .logoWrap{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+#brandIdentity .logoWrap li{
+    position: relative;
+}
+#brandIdentity .logoWrap img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -40%);
+}
+#brandIdentity .logoWrap .box{
+    width: 460px;
+    height: 180px;
+    border: 0.5px solid #707070;
+    margin-top: 6px;
+}
+#brandIdentity .textWrap li{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#brandIdentity .textWrap p{
+    display: inline-block;
+    font-size: 20px;
+}
+#brandIdentity .textWrap .textBold{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 40px 0 30px;
+}
+#brandIdentity .textWrap .textBold1{
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0 25px 0 20px;
+}
+
+/* colorSystem */
+#colorSystem{
+    width: 1320px;
+    margin: 0 auto;
+}
+#colorSystem .textCenter{
+    text-align: center;
+    font-size: 22px;
+    padding: 35px 0 90px 0;
+}
+#colorSystem ul{
+    display: flex;
+    padding-bottom: 200px;
+}
+#colorSystem ul li{
+    width: 330px;
+    height: 78px;
+}
+#colorSystem ul li p{
+    display: inline-block;
+    padding: 45px 0 0 15px;
+    color: #fff;
+    font-size: 20px;
+}
+#colorSystem ul li:nth-child(1){
+    background-color: #112878;
+}
+#colorSystem ul li:nth-child(2){
+    background-color: #014FD7;
+}
+#colorSystem ul li:nth-child(3){
+    background-color: #2669DC;
+}
+#colorSystem ul li:nth-child(4){
+    background-color: #E7EFFC;
+}
+#colorSystem ul li:nth-child(4) p{
+    color: #292929;
+}
+/* footer */
+#footer{
+    height: 260px;
+    background-color: #fff;
+    border-top: 1px solid #2f499b;
+    font-size: 15px;
+}
+#footer .innerFooter{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+#footer span{
+    font-weight: 600;
+}
+#footer p{
+    padding-bottom: 2px;
+}
+#footer .footerLogo img{
+    padding: 0 0 11px 100px; 
+}
+.footer3 img{
+    padding: 0 0 1px 4px;
+}

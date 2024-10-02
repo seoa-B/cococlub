@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <!-- pc는 최대 1500 넘으면 안 됨. 많아도 1400-1400초반대 -->
+    <title>COCOCLUB</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- webfont -->
+    <link href="https://webfontworld.github.io/sunn/SUIT.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/main_style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://wowjs.uk/dist/wow.min.js"></script>
+    <script src="js/wow_script.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="inner_header">
+                <h1><a href="index.html"><img src="./images/header/headerlogobox.svg" alt="logo"></a></h1>
+                <div class="nav">
+                    <ul class="gnb">
+                        <li><a href="sub2.html">About</a></li>
+                        <li><a href="sub1.html">Store</a></li>
+                        <li><a href="sub3.html">Zero Waste Lib</a></li>
+                        <li><a href="sub5.html">Community</a></li>
+                    </ul>
+                </div>
+                <ul class="header_link">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#"><img src="./images/header/searchbar_icon.svg" alt="searchbar" id="toggle-img"></a>
+                    </li>
+                    <div id="content" class="hidden">
+                        <form action="">
+                            <input type="text" placeholder="Search">
+                        </form>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+        <!-- //header -->
+
+        <div id="banner">
+            <div class="video_wrap">
+                <!-- <video src="./media/main_banner_v1.mp4" autoplay loop muted></video> -->
+                <video muted="" preload="true" loop autoplay webkit-playsinline="webkit-playsinline"
+                    playsinline="playsinline">
+                    <!--
+                        미리 로드하기 설정 : preload
+                        재생여부 : autoplay (자동재생)
+                        사운드 설정 : muted (음소거)
+                        반복재생여부 : loop (무한반복)
+                    -->
+                    <source src="media/main_banner_v1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <!-- //banner -->
+
+        <section id="about">
+            <h2 data-aos="fade-left">What we are?</h2>
+            <P class="subtitle" data-aos="fade-left" data-aos-delay="100">코코클럽은 환경을 고려한 선택으로<br>지속 가능한 내일을 만들어갑니다</P>
+            <ul>
+                <li class="about01 aboutimg" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                    <div class="img_wrap">
+                        <img src="./images/about/about1.jpg" alt="01">
+                        <div class="cover_color"></div>
+                    </div>
+                    <div class="text_wrap">
+                        <p class="p1">Eco-friendly</p>
+                        <p class="p2">환경친화적인</p>
+                        <img src="./images/about/line.png" alt="line">
+                        <p class="p3">자연을 고려하여 설계된 제품과 과정은<br>폐기물 감소와 자연 자원 보존을 우선시하여<br>더 깨끗하고 푸른 세상을 보장합니다.</p>
+                    </div>
+                </li>
+                <li class="about02 aboutimg" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="100">
+                    <div class="img_wrap">
+                        <img src="./images/about/about2.jpg" alt="02">
+                        <div class="cover_color"></div>
+                    </div>
+                    <div class="text_wrap">
+                        <p class="p1">Meanigful</p>
+                        <p class="p2">의미있는</p>
+                        <img src="./images/about/line.png" alt="line">
+                        <p class="p3">개인과 사회에 실질적이고<br>긍정적인 변화를 가져오는 솔루션을 제공합니다.</p>
+                    </div>
+                </li>
+                <li class="about03 aboutimg" data-aos="fade-up" data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="200">
+                    <div class="img_wrap">
+                        <img src="./images/about/about3.jpg" alt="03">
+                        <div class="cover_color"></div>
+                    </div>
+                    <div class="text_wrap">
+                        <p class="p1">Sustainable</p>
+                        <p class="p2">지속가능한</p>
+                        <img src="./images/about/line.png" alt="line">
+                        <p class="p3">코코클럽의 지속 가능한 실천은<br>자연 자원을 보존하고 폐기물을 최소화하며,<br>지구의 건강을 장기적으로 지원합니다.</p>
+                    </div>
+                </li>
+            </ul>
+            <img src="./images/top_btn.svg" alt="topbtn" class="top_btn">
+        </section>
+        <!-- //about -->
+
+        <section id="textflow2">
+            <div class="track2">
+                &nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB&nbsp;&nbsp;<img src="./images/textflow/heartearth_icon.svg" alt="earth2">&nbsp;&nbsp;WITH
+                COCOCLUB
+            </div>
+        </section>
+        <!-- //textflow2 -->
+
+        <section id="textflow">
+            <div class="track">
+                &nbsp;&nbsp;<img src="./images/textflow/earth_icon.svg"
+                    alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE&nbsp;&nbsp;<img
+                    src="./images/textflow/earth_icon.svg"
+                    alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE&nbsp;&nbsp;<img
+                    src="./images/textflow/earth_icon.svg"
+                    alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE&nbsp;&nbsp;<img
+                    src="./images/textflow/earth_icon.svg"
+                    alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE&nbsp;&nbsp;<img
+                    src="./images/textflow/earth_icon.svg"
+                    alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE&nbsp;&nbsp;<img
+                    src="./images/textflow/earth_icon.svg"
+                    alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE&nbsp;&nbsp;<img
+                    src="./images/textflow/earth_icon.svg" alt="earth1">&nbsp;&nbsp;ZERO-WASTE&nbsp;&nbsp;LIFESTYLE
+            </div>
+        </section>
+        <!-- //textflow1 -->
+
+        <section id="campaign">
+            <h2 data-aos="fade-left">Journey for Our Planet, Join Us!</h2>
+            <p data-aos="fade-left" data-aos-delay="100">제로 웨이스트 라이프스타일로의 변화를 함께하며,<br>모든 행동이 중요하고 모든 결정이 의미가 있음을 확인해보세요.</p><br>
+            <p><a href="javascript:return false;" data-aos="fade-left" data-aos-delay="100"><span>See More About the Campaign</span><img src="./images/campaign/campaign_btn.png" alt="campaign_btn"></a></p>
+            
+            <img src="./images/campaign/campaign_center.svg" alt="campaign0" class="camp0 wow bounceInDown contents" data-wow-delay="0s" data-wow-offset="0">
+
+            <img src="./images/campaign/campaign1.svg" alt="campaign1" class="camp1 wow bounceInDown contents"    data-wow-delay="0.28s" data-wow-offset="0" data-wow-iteration="1">
+        
+            <img src="./images/campaign/campaign2.svg" alt="campaign2" class="camp2 wow bounceInDown contents"    data-wow-delay="0.2s" data-wow-offset="0">
+
+            <img src="./images/campaign/campaign3.svg" alt="campaign3" class="camp3 wow bounceInDown contents"    data-wow-delay="0.1s" data-wow-offset="0">
+
+            <img src="./images/campaign/campaign4.svg" alt="campaign4" class="camp4 wow bounceInDown contents"    data-wow-delay="0.11s" data-wow-offset="0">
+
+            <img src="./images/campaign/campaign5.svg" alt="campaign5" class="camp5 wow bounceInDown contents"    data-wow-delay="0.18s" data-wow-offset="0">
+
+            <img src="./images/campaign/campaign6.svg" alt="campaign6" class="camp6 wow bounceInDown contents"    data-wow-delay="0.35s" data-wow-offset="0">
+        </section>
+        <!-- //campaign -->
+
+        <section id="spaces">
+            <div class="store">
+                <div class="left_box">
+                    <div class="text_wrap">
+                        <p class="title">제로웨이스트 공간에서
+                            <br>더 푸른 미래를 발견하세요!
+                        </p>
+                        <p>제로 웨이스트 공간에서 지속 가능한 선택을 만나보세요.<br>환경을 보호하고, 자원을 절약하는 더 나은 삶을 위한 첫걸음을 지금 시작하세요!</p>
+                        <p class="space_btn">
+                            <a href="sub4.html">See More Zero Waste Spaces<img src="./images/store/store_btn.svg"
+                                    alt="storebtn"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="right_box">
+                    <div class="swip_box">
+                        <div id="banner1" class="slide1">
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper1" dir="ltr">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/spaces/space1_1.svg" alt="s1_1"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_2.svg" alt="s1_2"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_3.svg" alt="s1_3"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_4.svg" alt="s1_4"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_1.svg" alt="s1_1"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_2.svg" alt="s1_2"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_3.svg" alt="s1_3"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space1_4.svg" alt="s1_4"></div>
+                                </div>
+                                <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                            </div>
+                        </div>
+                        <div id="banner2" class="slide2">
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper2" dir="rtl">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/spaces/space2_1.svg" alt="s2_1"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_2.svg" alt="s2_2"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_3.svg" alt="s2_3"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_4.svg" alt="s2_4"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_1.svg" alt="s2_1"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_2.svg" alt="s2_2"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_3.svg" alt="s2_3"></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space2_4.svg" alt="s2_4"></div>
+
+                                </div>
+                                <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                            </div>
+                        </div>
+                        <div id="banner3" class="slide3">
+                            <!-- Swiper -->
+                            <div class="swiper mySwiper3" dir="ltr">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="images/spaces/space3_1.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_2.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_3.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_4.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_1.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_2.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_3.svg" alt=""></div>
+                                    <div class="swiper-slide"><img src="images/spaces/space3_4.svg" alt=""></div>
+                                </div>
+                                <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- //spaces -->
+
+        <section id="products">
+            <p class="products_title">COCOCLUB'S Eco-Friendly Products!</p>
+            <div class="product">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_cap.jpg" alt="cap">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>빈티지 데님 볼캡</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_detergent.jpg" alt="detergent">
+                                <div class="cover">
+                                    <a href="sub1.html#section2">
+                                        <p>친환경 코코 주방세제</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_bag.jpg" alt="bag">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>에코 리유저블 린넨백</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_toothtablets.jpg" alt="toothtablets">
+                                <div class="cover">
+                                    <a href="sub1.html#section2">
+                                        <p>스피어민트 고체치약</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_mug.jpg" alt="mug">
+                                <div class="cover">
+                                    <a href="sub1.html#section2">
+                                        <p>코코 세라믹 머그컵</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_postcard.jpg" alt="postcard">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>Ripple Effect 벽 포스터</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_badge.jpg" alt="badge">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>리사이클 코코 뱃지</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 7개 추가 -->
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_cap.jpg" alt="cap">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>빈티지 데님 볼캡</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_detergent.jpg" alt="detergent">
+                                <div class="cover">
+                                    <a href="sub1.html#section2">
+                                        <p>친환경 코코 주방세제</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_bag.jpg" alt="bag">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>에코 리유저블 린넨백</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_toothtablets.jpg" alt="toothtablets">
+                                <div class="cover">
+                                    <a href="sub1.html#section2">
+                                        <p>스피어민트 고체치약</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_mug.jpg" alt="mug">
+                                <div class="cover">
+                                    <a href="sub1.html#section2">
+                                        <p>코코 세라믹 머그컵</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_postcard.jpg" alt="postcard">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>Ripple Effect 벽 포스터</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/product_badge.jpg" alt="badge">
+                                <div class="cover">
+                                    <a href="sub1.html#section1">
+                                        <p>리사이클 코코 뱃지</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+
+            <!--  -->
+
+            <div class="product">
+                <!-- Swiper -->
+                <div class="swiper mySwiper" dir="rtl">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread1.jpg" alt="bread1">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>찹쌀 아몬드 크로와상</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread2.jpg" alt="bread2">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>허니 에그 스콘</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread3.jpg" alt="bread3">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>순우유 소금빵</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread4.jpg" alt="bread4">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>아몬드칩 카카오 쿠키</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread5.jpg" alt="bread5">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>유기농 건포도 베이글</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread6.jpg" alt="bread6">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>저당 브라우니바 </p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread7.jpg" alt="bread7">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>유기농 바질치즈 브레드</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 7개 추가 -->
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread1.jpg" alt="bread1">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>찹쌀 아몬드 크로와상</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread2.jpg" alt="bread2">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>허니 에그 스콘</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread3.jpg" alt="bread3">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>순우유 소금빵</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread4.jpg" alt="bread4">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>아몬드칩 카카오 쿠키</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread5.jpg" alt="bread5">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>유기농 건포도 베이글</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread6.jpg" alt="bread6">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>저당 브라우니바 </p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="img_wrap">
+                                <img src="./images/products/bread7.jpg" alt="bread7">
+                                <div class="cover">
+                                    <a href="sub1.html#section4">
+                                        <p>유기농 바질치즈 브레드</p>
+                                        <img src="./images/products/arrow.png" alt="arrow">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </section>
+        <!-- //products -->
+        <div class="newsletterbg">
+            <section id="newsletter">
+                <div class="leftWrap">
+                    <p class="newsTitle">OUR STORY</p>
+                    <p class="newsSubtitle">더 나은 지구를 위한<br>지속 가능한 솔루션</p>
+                    <p>지속가능한 솔루션으로<br>지구의 밝은 미래를 만들어갑니다.</p>
+
+                    <img src="images/newsletter/maskdolphin.png" alt="dolphin">
+                </div>
+                <p class="newsBtn newsBtnL"><a href="sub2.html">COCO story</a></p>
+                <div class="rightWrap">
+                    <p class="newsTitle">NEWSLETTER</p>
+                    <p class="newsSubtitle">어스 웨이브스</p>
+                    <p>어스웨이브스를 구독하고 매주 새로운 소식을 메일로 받아보세요! </p>
+                    <div class="email">
+                        <form action="">
+                            <input type="email" placeholder="이메일 주소">
+                        </form>
+                    </div>
+                    <div class="name">
+                        <form action="">
+                            <input type="text" placeholder="이름">
+                        </form>
+                    </div>
+                    <div class="checkText">
+                        <div class="check1">
+                            <input type="checkbox">
+                            <p class="check_p"><span>개인정보 수집 및 이용</span>에 동의합니다.</p>
+                        </div>
+                        <div class="check2">
+                            <input type="checkbox">
+                            <p class="check_p"><span>광고성 정보 수신</span>에 동의합니다.</p>
+                        </div>
+                    </div>
+                    <p class="newsBtn newsBtnR"><a href="javascript:return false;">구독하기</a></p>
+                </div>
+            </section>
+        </div>
+        <!-- //newsletter -->
+
+        <footer id="footer">
+            <div class="innerFooter">
+                <div class="footer0">
+                    <div class="footerLogo">
+                        <img src="images/footer/footer_logo.svg" alt="footerlogo">
+                    </div>
+                    <p>Copyright ⓒ COCOCLUB All rights reserved.</p>
+                </div>
+                <div class="footer1">
+                    <p><span>회사명</span> 주식회사 코코클럽</p>
+                    <p><span>대표자명</span> 이코코</p>
+                    <p><span>주소</span> 부산광역시 중구 중앙대로 26 10층</p>
+                    <p><span>이메일</span> contact@cococlub.co.kr</p>
+                </div>
+                <div class="footer2">
+                    <p><span>사업자등록번호</span> 123-45-67890</p>
+                    <p><span>통신판매업신고</span> 제2024-부산중앙-1234호</p>
+                    <p><span>팩스</span> 0101-0202-0303</p>
+                    <p><span>고객센터</span> 070-123-4567</p>
+                </div>
+                <div class="footer3">
+                    <p><span>이용약관</span><a href="javascript:return false;"><img src="images/footer/link_btn.png"
+                                alt="footerlink"></a></p>
+                    <p><span>개인정보처리방침</span><a href="javascript:return false;"><img src="images/footer/link_btn.png"
+                                alt="footerlink"></a></p>
+                    <p><span>상품구매약관</span><a href="javascript:return false;"><img src="images/footer/link_btn.png"
+                                alt="footerlink"></a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- //wrap -->
+
+
+    <!-- JQ오픈소스 -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- JQ제어코드 -->
+    <script>
+        $('.top_btn').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500)
+        });
+    </script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>//products Swiper
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 7,
+            spaceBetween: 30,
+            centeredSlides: false,
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 3000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>//spaces Swiper
+        var swiper = new Swiper(".mySwiper1", {
+            // direction: "vertical",
+            slidesPerView: 3,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 5000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            // direction: "vertical",
+            slidesPerView: 3,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 5000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper3", {
+            // direction: "vertical",
+            slidesPerView: 3,
+            spaceBetween: 30,
+            centeredSlides: true,
+            loop: true,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            },
+            speed: 5000,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <!-- submenu -->
+    <!-- <script>
+        $(".submenu").hide();
+        $(".nav li").mouseenter(function () {
+            $(this).children(".submenu").stop().slideDown()
+        });
+        $(".nav li").mouseleave(function () {
+            $(this).children(".submenu").stop().slideUp()
+        });
+    </script> -->
+    <!-- submenu 전체 -->
+    <script>
+        $(".submenu").hide();
+        $(".gnb li a").mouseenter(function () {
+            $(".submenu").stop().slideDown()
+        });
+        $(".nav").mouseleave(function () {
+            $(".submenu").stop().slideUp()
+        });
+    </script>
+
+    <!-- searchbar -->
+    <!-- <script>
+        $(".header_link li img").click(function(){
+            $(".search_bar").show();
+        });
+     </script> -->
+
+    <script>
+        $("#toggle-img").click(function () {
+            $("#content").toggle();
+        });
+    </script>
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleText = document.getElementById('toggle-img');
+            const content = document.getElementById('content');
+
+            // 클릭 이벤트 핸들러
+            toggleText.addEventListener('click', (event) => {
+                event.stopPropagation(); // 이벤트 버블링 방지
+                content.classList.toggle('hidden');
+            });
+
+            // 문서 전체 클릭 이벤트 핸들러
+            document.addEventListener('click', () => {
+                if (!content.classList.contains('hidden')) {
+                    content.classList.add('hidden');
+                }
+            });
+
+            // 내용 부분 클릭 시 클릭 이벤트 방지
+            content.addEventListener('click', (event) => {
+                event.stopPropagation(); // 이벤트 버블링 방지
+            });
+        });
+    </script> -->
+
+    </script>
+
+    <!-- AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <!-- pc는 최대 1500 넘으면 안 됨. 많아도 1400-1400초반대 -->
+    <title>COCOCLUB</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- webfont -->
+    <link href="https://webfontworld.github.io/sunn/SUIT.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/sub1_style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="inner_header">
+                <h1><a href="index.html"><img src="./images/header/headerlogobox.svg" alt="logo"></a></h1>
+                <div class="nav">
+                    <ul class="gnb">
+                        <li><a href="sub2.html">About</a></li>
+                        <li><a href="sub1.html">Store</a></li>
+                        <li><a href="sub3.html">Zero Waste Lib</a></li>
+                        <li><a href="sub5.html">Community</a></li>
+                    </ul>
+                </div>
+                <ul class="header_link">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#"><img src="./images/header/searchbar_icon.svg" alt="searchbar" id="toggle-img"></a>
+                    </li>
+                    <div id="content" class="hidden">
+                        <form action="">
+                            <input type="text" placeholder="Search">
+                        </form>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+        <!-- //header -->
+
+        <div id="banner">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/sub1_store/banner1.png" alt="banner1">
+                        <div class="textWrap">
+                            <p class="title">비건 현미 샴푸솝</p>
+                            <p class="subtitle">현미의 힘으로 가꾸는 건강한 두피</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/sub1_store/banner2.png" alt="banner2">
+                        <div class="textWrap">
+                            <p class="title">에코 뱀부 칫솔</p>
+                            <p class="subtitle">자연과 함께하는 깨끗한 습관</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/sub1_store/banner3.png" alt="banner3">
+                        <div class="textWrap textWrap3">
+                            <p class="title">제주 병풀 토너</p>
+                            <p class="subtitle">유리병에 담긴 자연의 힘</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-button-next"></div> -->
+                <!-- <div class="swiper-button-prev"></div> -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <!-- //banner -->
+
+        <img src="./images/top_btn.svg" alt="topbtn" class="top_btn">
+
+
+        <div id="container">
+            <div class="itemLinkBox">
+                <div class="itemLink">
+                    <p class="tabBtn1"><a href="sub1.html#section1">Living</a></p>
+                    <p class="tabBtn2"><a href="sub1.html#section2">Kitchen</a></p>
+                    <p class="tabBtn3"><a href="sub1.html#section3">Bathroom</a></p>
+                    <p class="tabBtn4"><a href="sub1.html#section4">Vegan</a></p>
+                </div>
+                <div class="itemSearch">
+                    <form action="">
+                        <input type="text" placeholder="Search">
+                        <img src="images/header/searchbar_icon.svg" alt="itemSearchBar">
+                    </form>
+                </div>
+            </div>
+            <div class="content">
+                <h2>BEST ITEM</h2>
+            </div>
+
+            <!-- item slider -->
+            <div id="slide_wrap">
+                <div id="slide" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        <img src="images/sub1_store/itemslide1.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            코코 세라믹 머그컵<br>12,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        <img src="images/sub1_store/itemslide2.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            Ripple Effect 벽 포스터<br>11,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        <img src="images/sub1_store/itemslide3.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            스피어민트 고체치약<br>12,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        <img src="images/sub1_store/itemslide4.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            에코 리유저블 린넨백<br>15,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        <img src="images/sub1_store/itemslide5.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            유기농 치즈 베이글<br>2,800원
+                                        </p>
+                                    </div>
+                                </a></li>
+                                
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        <img src="images/sub1_store/itemslide1.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            코코 세라믹 머그컵<br>12,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                                
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        
+                                        <img src="images/sub1_store/itemslide2.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            Ripple Effect 벽 포스터<br>11,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                                
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        
+                                        <img src="images/sub1_store/itemslide3.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            스피어민트 고체치약<br>12,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        
+                                        <img src="images/sub1_store/itemslide4.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            에코 리유저블 린넨백<br>15,000원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                        <ul class="swiper-slide">
+                            <li><a href="javascript:return false;">
+                                    <div class="screen">
+                                        
+                                        <img src="images/sub1_store/itemslide5.png" alt="1"></img>
+                                    </div>
+                                    <div class="bottom">
+                                        <p>
+                                            유기농 치즈 베이글<br>2,800원
+                                        </p>
+                                    </div>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <!-- //container -->
+
+        <div class="texttape">
+            <img src="./images/tape1.png" alt="tape01" class="tape1">
+            <img src="./images/tape2.png" alt="tape02" class="tape2">
+        </div>
+        <!-- //texttape -->
+
+        <div id="container2">
+            <div class="section section1" id="section1">
+                <h2>LIVING</h2>
+                <ul>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/living1.png" alt="badge"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>리사이클 코코 뱃지</p>
+                            <p>4,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/living2.png" alt="poster"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>Ripple Effect 벽 포스터</p>
+                            <p>11,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/living3.png" alt="bag"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>에코 리유저블 린넨백</p>
+                            <p>15,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/living4.png" alt="cap"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>빈티지 데님 볼캡</p>
+                            <p>42,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="moreBtn">
+                    <p><a href="javascript:return false;">MORE</a></p>
+                </div>
+            </div>
+            <div class="sectionBg">
+                <div class="section section2" id="section2">
+                    <h2>KITCHEN</h2>
+                    <ul>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/kitchen1.png" alt="badge"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>친환경 버블 주방세제</p>
+                                <p>12,000원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/kitchen2.png" alt="poster"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>코코 세라믹 머그컵</p>
+                                <p>12,000원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/kitchen3.png" alt="bag"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>참나무 젓가락 세트</p>
+                                <p>11,000원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/kitchen2.png" alt="cap"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>코코 세라믹 머그컵</p>
+                                <p>12,000원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="moreBtn">
+                        <p><a href="javascript:return false;">MORE</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="section section3" id="section3">
+                <h2>BATHROOM</h2>
+                <ul>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/bathroom1.png" alt="badge"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>리사이클 튜브 짜개</p>
+                            <p>4,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/bathroom2.png" alt="poster"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>스피어민트 고체치약</p>
+                            <p>12,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/bathroom3.png" alt="bag"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>재활용 칫솔캡 2개입</p>
+                            <p>1,800원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="imgWrap">
+                            <a href="javascript:return false;"><img src="images/sub1_store/bathroom4.png" alt="cap"></a>
+                        </div>
+                        <div class="textBox">
+                            <p>알로에 올인원바</p>
+                            <p>10,000원</p>
+                            <div class="iconBtn">
+                                <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="moreBtn">
+                    <p><a href="javascript:return false;">MORE</a></p>
+                </div>
+            </div>
+            <div class="sectionBg">
+                <div class="section section4" id="section4">
+                    <h2>VEGAN</h2>
+                    <ul>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/vegan1.png" alt="badge"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>[비건] 허니 에그 스콘</p>
+                                <p>2,500원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/vegan2.png" alt="poster"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>[비건] 유기농 건포도 베이글</p>
+                                <p>2,800원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/vegan3.png" alt="bag"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>[비건] 저당 브라우니바</p>
+                                <p>3,500원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="imgWrap">
+                                <a href="javascript:return false;"><img src="images/sub1_store/vegan4.png" alt="cap"></a>
+                            </div>
+                            <div class="textBox">
+                                <p>[비건] 유기농 치즈 베이글</p>
+                                <p>2,800원</p>
+                                <div class="iconBtn">
+                                    <img src="images/sub1_store/cartBtn.png" alt="cart" class="cartBtn">
+                                    <img src="images/sub1_store/heartBtn.png" alt="heart" class="heartBtn">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="moreBtn">
+                        <p><a href="javascript:return false;">MORE</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="texttape texttape2">
+            <img src="./images/tape1.png" alt="tape01" class="tape1">
+            <img src="./images/tape2.png" alt="tape02" class="tape2">
+        </div>
+        <!-- //texttape -->
+
+        <div class="bottomBanner">
+            <div class="boxtext">
+                <h2>지구를 위한 배려</h2>
+                <p>친환경 포장재로 안전하게 포장된 제품을 만나보세요.<br>코코클럽에서 구매한 모든 제품은 Earth-Loving Packaging으로 소중하게 배송됩니다.</p>
+            </div>
+        </div>
+        <!-- //bottomBanner -->
+
+        <footer id="footer">
+            <div class="innerFooter">
+                <div class="footer0">
+                    <div class="footerLogo">
+                        <img src="images/footer/footer_logo.svg" alt="footerlogo">
+                    </div>
+                    <p>Copyright ⓒ COCOCLUB All rights reserved.</p>
+                </div>
+                <div class="footer1">
+                    <p><span>회사명</span> 주식회사 코코클럽</p>
+                    <p><span>대표자명</span> 이코코</p>
+                    <p><span>주소</span> 부산광역시 중구 중앙대로 26 10층</p>
+                    <p><span>이메일</span> contact@cococlub.co.kr</p>
+                </div>
+                <div class="footer2">
+                    <p><span>사업자등록번호</span> 123-45-67890</p>
+                    <p><span>통신판매업신고</span> 제2024-부산중앙-1234호</p>
+                    <p><span>팩스</span> 0101-0202-0303</p>
+                    <p><span>고객센터</span> 070-123-4567</p>
+                </div>
+                <div class="footer3">
+                    <p><span>이용약관</span><a href="javascript:return false;"><img src="images/footer/link_btn.png"
+                                alt="footerlink"></a></p>
+                    <p><span>개인정보처리방침</span><a href="javascript:return false;"><img src="images/footer/link_btn.png"
+                                alt="footerlink"></a></p>
+                    <p><span>상품구매약관</span><a href="javascript:return false;"><img src="images/footer/link_btn.png"
+                                alt="footerlink"></a></p>
+                </div>
+            </div>
+        </footer>
+        <!-- //footer -->
+    </div>
+    <!-- //wrap -->
+
+
+    <!-- JQ오픈소스 -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- JQ제어코드 -->
+    <script>
+        $('.top_btn').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 500)
+        });
+    </script>
+
+    <!-- submenu 전체 -->
+    <script>
+        $(".submenu").hide();
+        $(".gnb li a").mouseenter(function () {
+            $(".submenu").stop().slideDown()
+        });
+        $(".nav").mouseleave(function () {
+            $(".submenu").stop().slideUp()
+        });
+    </script>
+
+    <!-- searchbar -->
+    <script>
+        $("#toggle-img").click(function () {
+            $("#content").toggle();
+        });
+    </script>
+
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const toggleText = document.getElementById('toggle-img');
+            const content = document.getElementById('content');
+
+            // 클릭 이벤트 핸들러
+            toggleText.addEventListener('click', (event) => {
+                event.stopPropagation(); // 이벤트 버블링 방지
+                content.classList.toggle('hidden');
+            });
+
+            // 문서 전체 클릭 이벤트 핸들러
+            document.addEventListener('click', () => {
+                if (!content.classList.contains('hidden')) {
+                    content.classList.add('hidden');
+                }
+            });
+
+            // 내용 부분 클릭 시 클릭 이벤트 방지
+            content.addEventListener('click', (event) => {
+                event.stopPropagation(); // 이벤트 버블링 방지
+            });
+        });
+    </script> -->
+
+    <!-- banner slide -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            loop: true,
+            autoplay: {     //자동슬라이드 (false-비활성화)
+                delay: 3000, // 시간 설정
+                disableOnInteraction: false, // false-스와이프 후 자동 재생
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+
+    <!-- itme slide-swiper -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 5,
+            spaceBetween: 0,
+            observer: true,
+            observeParents: true,
+
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+
+</html>
