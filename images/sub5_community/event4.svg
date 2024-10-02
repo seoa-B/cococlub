@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="640" height="200" viewBox="0 0 640 200">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.912" y1="0.625" x2="0.252" y2="0.625" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#189e5f"/>
+      <stop offset="1" stop-color="#6ab165"/>
+    </linearGradient>
+  </defs>
+  <g id="event4" transform="translate(-980 -1137)">
+    <rect id="배너" width="640" height="200" rx="13" transform="translate(980 1137)" fill="url(#linear-gradient)"/>
+    <text id="지구의_날_기념_깜짝_쿠폰" data-name="지구의 날 기념 깜짝 쿠폰" transform="translate(1025 1227.5)" fill="#fffffe" font-size="22" font-family="GmarketSansBold, Gmarket Sans"><tspan x="0" y="0">지구의 날 기념 깜짝 쿠폰</tspan></text>
+    <text id="_4월_22일_지구의_날_맞이_3종_랜덤_쿠폰_발급" data-name="4월 22일, 지구의 날 맞이 3종 랜덤 쿠폰 발급" transform="translate(1025 1275.5)" fill="#fffffe" font-size="15" font-family="GmarketSansMedium, Gmarket Sans"><tspan x="0" y="0">4월 22일, 지구의 날 맞이 3종 랜덤 쿠폰 발급</tspan></text>
+    <text id="지구를_위한_작은_실천_놓치지_마세요_" data-name="지구를 위한 작은 실천, 놓치지 마세요!" transform="translate(1025 1295.5)" fill="#fffffe" font-size="15" font-family="GmarketSansMedium, Gmarket Sans"><tspan x="0" y="0">지구를 위한 작은 실천, 놓치지 마세요!</tspan></text>
+    <text id="HAPPY_EARTHDAY_" data-name="HAPPY EARTHDAY !" transform="translate(1201 1184.5)" fill="#fff7d6" font-size="25" font-family="MADEOuterSans-Bold, MADE Outer Sans" font-weight="700"><tspan x="0" y="0">HAPPY EARTHDAY !</tspan></text>
+    <g id="그룹_607" data-name="그룹 607" transform="translate(184 -932.5)">
+      <g id="다각형_4" data-name="다각형 4" transform="translate(1332 2102)" fill="#39b749">
+        <path d="M 48.02328872680664 73.62593841552734 L 36.38676071166992 59.42279815673828 L 35.9999885559082 58.95072937011719 L 35.61322021484375 59.42279815673828 L 23.97669219970703 73.62593078613281 L 23.69338035583496 54.80183029174805 L 23.68461036682129 54.21913909912109 L 23.11002922058105 54.31636047363281 L 5.514333724975586 57.29343795776367 L 16.77577018737793 42.62987899780273 L 17.10914993286133 42.19578170776367 L 16.64674949645996 41.90291976928711 L 1.316360712051392 32.19351196289062 L 18.84568023681641 28.61894989013672 L 19.39546012878418 28.50683975219727 L 19.22098922729492 27.97356033325195 L 13.38920783996582 10.14791107177734 L 28.93221092224121 19.29397964477539 L 29.45137023925781 19.59947967529297 L 29.65604019165039 19.03293037414551 L 36 1.471648931503296 L 42.34395980834961 19.03293991088867 L 42.54862976074219 19.59948921203613 L 43.06779098510742 19.29398918151855 L 58.61079406738281 10.14792060852051 L 52.77901840209961 27.97356986999512 L 52.60454940795898 28.50684928894043 L 53.15433120727539 28.61895942687988 L 70.68363952636719 32.19351196289062 L 55.35324859619141 41.90293121337891 L 54.89085006713867 42.1957893371582 L 55.2242317199707 42.62989044189453 L 66.48566436767578 57.29344940185547 L 48.88996124267578 54.31636810302734 L 48.31538009643555 54.21915054321289 L 48.30661010742188 54.80184173583984 L 48.02328872680664 73.62593841552734 Z" stroke="none"/>
+        <path d="M 36 2.943267822265625 L 29.71696853637695 20.33589935302734 L 14.2757568359375 11.24973678588867 L 20.04513168334961 28.88465881347656 L 2.632728576660156 32.43537521362305 L 17.83908081054688 42.06623077392578 L 6.686531066894531 56.58799743652344 L 24.17578887939453 53.62892913818359 L 24.45607757568359 72.25185394287109 L 35.9999885559082 58.16178131103516 L 47.54390716552734 72.25186920166016 L 47.82419967651367 53.62894058227539 L 65.31346130371094 56.58800506591797 L 54.16091918945312 42.06623840332031 L 69.36728668212891 32.43537521362305 L 51.95487213134766 28.88465881347656 L 57.72423934936523 11.2497444152832 L 42.28302764892578 20.33591079711914 L 36 2.943267822265625 M 36 0 L 42.8142204284668 18.86305999755859 L 59.49732971191406 9.046112060546875 L 53.25423049926758 28.1290397644043 L 72 31.9516487121582 L 55.62078094482422 42.32534027099609 L 67.65786743164062 57.99887847900391 L 48.80654907226562 54.80936050415039 L 48.50266265869141 75 L 35.9999885559082 59.73968124389648 L 23.49731826782227 74.99997711181641 L 23.19343948364258 54.80934906005859 L 4.342117309570312 57.99887084960938 L 16.37921905517578 42.3253288269043 L 0 31.9516487121582 L 18.74576950073242 28.1290397644043 L 12.50267028808594 9.046096801757812 L 29.1857795715332 18.8630485534668 L 36 0 Z" stroke="none" fill="#f5f5f5"/>
+      </g>
+      <text id="_" data-name="?" transform="translate(1362 2152)" fill="#fffaeb" font-size="30" font-family="MADEOuterSans-Bold, MADE Outer Sans" font-weight="700"><tspan x="0" y="0">?</tspan></text>
+    </g>
+    <g id="다각형_3" data-name="다각형 3" transform="translate(1166 1154.5)" fill="none">
+      <path d="M13.5,0l2.97,10.14L27,13,16.47,15.86,13.5,26,10.53,15.86,0,13l10.53-2.86Z" stroke="none"/>
+      <path d="M 13.5 3.557573318481445 L 11.33232975006104 10.9583101272583 L 3.815212249755859 13 L 11.33232975006104 15.0416898727417 L 13.5 22.44242668151855 L 15.66767024993896 15.0416898727417 L 23.18478775024414 13 L 15.66767024993896 10.9583101272583 L 13.5 3.557573318481445 M 13.5 0 L 16.47000122070312 10.14000034332275 L 27 13 L 16.47000122070312 15.85999965667725 L 13.5 26 L 10.53000068664551 15.85999965667725 L 0 13 L 10.53000068664551 10.14000034332275 L 13.5 0 Z" stroke="none" fill="#fffaeb"/>
+    </g>
+    <path id="다각형_5" data-name="다각형 5" d="M12.5,0l3.125,9L25,12l-9.375,3L12.5,24,9.375,15,0,12,9.375,9Z" transform="translate(1523 1248.5)" fill="#fffaeb"/>
+    <path id="다각형_6" data-name="다각형 6" d="M6,0,7.5,4.125,12,5.5,7.5,6.875,6,11,4.5,6.875,0,5.5,4.5,4.125Z" transform="translate(1318 1211.5)" fill="#fffaeb"/>
+    <circle id="타원_16" data-name="타원 16" cx="2" cy="2" r="2" transform="translate(1516 1238.5)" fill="#fffaeb"/>
+    <circle id="타원_17" data-name="타원 17" cx="2" cy="2" r="2" transform="translate(1568 1281.5)" fill="#fffaeb"/>
+    <g id="그룹_625" data-name="그룹 625" transform="translate(2889.182 3527.489) rotate(-178)">
+      <g id="그룹_622" data-name="그룹 622" transform="translate(1452.162 2171.323)">
+        <path id="패스_839" data-name="패스 839" d="M6.689,0A6.689,6.689,0,0,0,0,6.689v5.877c4.835.629,8.547,4.262,8.547,8.661S4.835,29.261,0,29.889v5.877a6.689,6.689,0,0,0,6.689,6.689H19.016V0Z" fill="#edc2d5"/>
+        <path id="패스_840" data-name="패스 840" d="M51.966,0H0V42.456H51.966a6.689,6.689,0,0,0,6.689-6.689V6.689A6.689,6.689,0,0,0,51.966,0Z" transform="translate(19.016)" fill="#39b749"/>
+        <text id="_4" data-name="4" transform="translate(55.497 7.906) rotate(180)" fill="#edc2d5" font-size="22" font-family="MADEOuterSans-Black, MADE Outer Sans" font-weight="800" letter-spacing="0.04em"><tspan x="0" y="0">4</tspan></text>
+        <text id="_2" data-name="%" transform="translate(23.683 18.6)" fill="#edc2d5" font-size="12" font-family="MADEOuterSans-Black, MADE Outer Sans" font-weight="800" letter-spacing="0.04em"><tspan x="0" y="0">%</tspan></text>
+      </g>
+      <text id="coupon" transform="translate(1517.702 2202.412) rotate(180)" fill="#edc2d5" font-size="8" font-family="GmarketSansBold, Gmarket Sans"><tspan x="0" y="0">coupon</tspan></text>
+    </g>
+    <g id="그룹_627" data-name="그룹 627" transform="matrix(0.985, -0.174, 0.174, 0.985, -340.304, -624.717)">
+      <g id="그룹_624" data-name="그룹 624" transform="translate(1314.285 3218.809)">
+        <path id="패스_843" data-name="패스 843" d="M117.483-1070.663H97.964l-1.787,3.1a2.414,2.414,0,0,1-2.109,1.217v39.439a2.414,2.414,0,0,1,2.109,1.217l1.787,3.1h19.519a2.558,2.558,0,0,0,2.558-2.558v-42.949A2.557,2.557,0,0,0,117.483-1070.663Z" transform="translate(-8.741)" fill="#edc2d5"/>
+        <text id="COUPON-2" data-name="COUPON" transform="translate(96.344 -1065.408) rotate(90)" fill="#189e5f" font-size="6" font-family="MADEOuterSans-Bold, MADE Outer Sans" font-weight="700"><tspan x="0" y="0">COUPON</tspan></text>
+        <path id="패스_844" data-name="패스 844" d="M85.327-1026.912v-39.439a2.412,2.412,0,0,1-2.108-1.217l-1.788-3.1H12.712a2.487,2.487,0,0,0-2.351,2.214c.951.434,1.553,1.062,1.553,1.764s-.62,1.349-1.6,1.783v3.151c.976.434,1.6,1.071,1.6,1.783s-.62,1.349-1.6,1.783v3.207c.09,0,.176-.012.266-.012,4.407,0,7.98,3.307,7.98,7.389s-3.573,7.389-7.98,7.389c-.09,0-.176-.01-.266-.013v3.207c.976.434,1.6,1.071,1.6,1.783s-.62,1.349-1.6,1.783v3.151c.976.434,1.6,1.071,1.6,1.783s-.62,1.349-1.6,1.783v1.448a2.553,2.553,0,0,0,2.394,2.687H81.431l1.788-3.1A2.412,2.412,0,0,1,85.327-1026.912Z" fill="#fffaeb"/>
+        <text id="_2024P" data-name="2024P" transform="translate(21.858 -1035.09)" fill="#189e5f" font-size="14" font-family="MADEOuterSans-Black, MADE Outer Sans" font-weight="800"><tspan x="0" y="0">2024</tspan><tspan y="0" font-size="11">P</tspan></text>
+      </g>
+      <text id="전품목_사용가능" data-name="전품목 사용가능" transform="translate(1336 2168)" fill="#189e5f" font-size="8" font-family="GmarketSansMedium, Gmarket Sans"><tspan x="0" y="0">전품목 사용가능</tspan></text>
+    </g>
+    <g id="그룹_626" data-name="그룹 626" transform="translate(571.086 -1275.089) rotate(20)">
+      <g id="그룹_623" data-name="그룹 623" transform="translate(1625.024 2042.657)">
+        <path id="패스_841" data-name="패스 841" d="M21.835,0H3.633L1.966,2.887A2.25,2.25,0,0,1,0,4.022V40.8a2.249,2.249,0,0,1,1.966,1.135l1.667,2.887h18.2a2.386,2.386,0,0,0,2.386-2.385V2.385A2.385,2.385,0,0,0,21.835,0Z" transform="translate(69.95)" fill="#189e5f" stroke="#fffaeb" stroke-miterlimit="10" stroke-width="1"/>
+        <text id="COUPON-3" data-name="COUPON" transform="translate(79.819 4.901) rotate(90)" fill="#fffaeb" font-size="6" font-family="MADEOuterSans-Bold, MADE Outer Sans" font-weight="700"><tspan x="0" y="0">COUPON</tspan></text>
+        <path id="패스_842" data-name="패스 842" d="M69.95,40.8V4.022a2.251,2.251,0,0,1-1.967-1.136L66.317,0H2.233A2.32,2.32,0,0,0,.039,2.065c.887.405,1.449.991,1.449,1.645S.91,4.967,0,5.372V8.31c.91.405,1.488,1,1.488,1.663S.91,11.231,0,11.636v2.992c.083,0,.164-.012.248-.012a7.181,7.181,0,0,1,7.441,6.891A7.182,7.182,0,0,1,.248,28.4c-.084,0-.165-.009-.248-.012v2.991c.91.405,1.488,1,1.488,1.663S.91,34.3,0,34.7v2.938c.91.405,1.488,1,1.488,1.663S.91,40.562,0,40.967v1.351a2.38,2.38,0,0,0,2.233,2.506H66.317l1.666-2.887A2.251,2.251,0,0,1,69.95,40.8Z" fill="#39b749" stroke="#fffaeb" stroke-miterlimit="10" stroke-width="1"/>
+        <text id="_22_" data-name="22%" transform="translate(15.582 34.822)" fill="#fffaeb" font-size="19" font-family="MADEOuterSans-Black, MADE Outer Sans" font-weight="800" letter-spacing="0.022em"><tspan x="0" y="0">22</tspan><tspan y="0" font-size="12">%</tspan></text>
+      </g>
+      <text id="중복사용가능" transform="translate(1640.102 2058.966)" fill="#fffaeb" font-size="7" font-family="GmarketSansMedium, Gmarket Sans"><tspan x="0" y="0">중복사용가능</tspan></text>
+    </g>
+    <path id="패스_1067" data-name="패스 1067" d="M7291.525,1935.909c11.57,5.613,16.327,3.432,16.635.28a2.964,2.964,0,0,0-5.38-2.078c-1.811,2.542.516,6.662,9.81,7.813" transform="matrix(0.985, 0.174, -0.174, 0.985, -5498.645, -1938.927)" fill="none" stroke="#fffaeb" stroke-linecap="round" stroke-width="1"/>
+  </g>
+</svg>
