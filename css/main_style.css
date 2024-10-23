@@ -621,7 +621,7 @@ product Swiper
 #newsletter .rightWrap{
     width: 660px;
     height: 600px;
-    background: url(../images/newsletter/newsletter_bg.jpg) no-repeat center;
+    background: url(../images/newsletter/newsletterbg.svg) no-repeat center;
     color: #fff;
     font-size: 20px;
     box-sizing: border-box;
@@ -674,7 +674,6 @@ product Swiper
 #footer{
     height: 260px;
     background-color: #fff;
-    border-top: 1px solid #2f499b;
     font-size: 15px;
 }
 #footer .innerFooter{
