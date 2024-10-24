@@ -167,7 +167,7 @@ h2{
 #brandValue{
     width: 1320px;
     margin: 0 auto;
-    padding: 150px 0 195px 0;
+    padding: 150px 0 100px 0;
 }
 #brandValue h2{
     padding-bottom: 145px; 
@@ -221,7 +221,7 @@ h2{
 #brandIdentity{
     width: 1000px;
     margin: 0 auto;
-    padding: 180px 0 115px 0;
+    padding: 100px 0 200px 0;
 }
 #brandIdentity .textCenter{
     text-align: center;
