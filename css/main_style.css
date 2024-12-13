@@ -11,18 +11,16 @@ ul,ol{
 }
 html{
     font-size: 18px;
-    /* rem의 기준크기-설정값 조정(본인 웹사이트 디자인에 따라서) */
 }
 body{
     font-family: 'SUIT';
     font-size: 18px;
     /* line-height: 1.2rem; */
     color: #292929;
-    /* font-family, font-size 설정값 조정 */
 }
 #wrap{
     min-width: 1320px;
-    /* veiwport 너비랑 똑같이 설정해줘야 함 */
+    /* veiwport 너비와 동일 설정 */
     overflow: hidden;
 }
 
